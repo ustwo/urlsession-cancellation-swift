@@ -15,7 +15,9 @@ An extension to iOS / macOS Foundation library's `NSURLSession` class to add sup
 
 ## Usage
 
-See `ViewController.swift` for sample usage anf demo buttons but there are a couple of methods added to NSURLSession:
+See `ViewController.swift` for sample usage. 
+
+There are a couple of methods added to `NSURLSession`:
 
 ### cancelAllRequests
 
