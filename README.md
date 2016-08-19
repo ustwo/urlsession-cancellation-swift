@@ -30,12 +30,11 @@ session.cancelAllRequests()
 Use the `cancelRequestForURL` function to cancel a request for a specific URL
 
 ```
-let url = "http://puppygifs.tumblr.com/api/read/json"
-session.
+let url = NSURL(string: "http://puppygifs.tumblr.com/api/read/json")
 session.cancelRequestForURL(url)
 ```
 
-Note. the `NSURLSession` completion handler will be called with `NSURLCancelled
+Note. the `NSURLSession` completion handler will be called with an error code `NSURLErrorCancelled` and domain `NSURLErrorDomain`.
 
 ## Contributors
 
