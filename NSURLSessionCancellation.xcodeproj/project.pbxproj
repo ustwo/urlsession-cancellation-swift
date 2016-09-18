@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		934F07001D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */; };
 		AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B521D67183500F3B854 /* AppDelegate.swift */; };
 		AABD2B551D67183500F3B854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B541D67183500F3B854 /* ViewController.swift */; };
 		AABD2B581D67183500F3B854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B561D67183500F3B854 /* Main.storyboard */; };
 		AABD2B5A1D67183500F3B854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B591D67183500F3B854 /* Assets.xcassets */; };
 		AABD2B5D1D67183500F3B854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B5B1D67183500F3B854 /* LaunchScreen.storyboard */; };
-		AABD2B831D6720D000F3B854 /* NSURLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B821D6720D000F3B854 /* NSURLSession+Cancellation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Cancellation.swift"; sourceTree = "<group>"; };
 		AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSessionCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABD2B521D67183500F3B854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AABD2B541D67183500F3B854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		AABD2B591D67183500F3B854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AABD2B5C1D67183500F3B854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AABD2B5E1D67183500F3B854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AABD2B821D6720D000F3B854 /* NSURLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Cancellation.swift"; path = "Sources/NSURLSession+Cancellation.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		934F06FE1D8EEAFC001C74C9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
 		AABD2B461D67183500F3B854 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +69,7 @@
 				AABD2B5E1D67183500F3B854 /* Info.plist */,
 				AABD2B5B1D67183500F3B854 /* LaunchScreen.storyboard */,
 				AABD2B561D67183500F3B854 /* Main.storyboard */,
-				AABD2B821D6720D000F3B854 /* NSURLSession+Cancellation.swift */,
+				934F06FE1D8EEAFC001C74C9 /* Sources */,
 				AABD2B541D67183500F3B854 /* ViewController.swift */,
 			);
 			path = NSURLSessionCancellation;
@@ -140,7 +148,7 @@
 			files = (
 				AABD2B551D67183500F3B854 /* ViewController.swift in Sources */,
 				AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */,
-				AABD2B831D6720D000F3B854 /* NSURLSession+Cancellation.swift in Sources */,
+				934F07001D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
