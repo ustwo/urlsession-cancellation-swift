@@ -12,43 +12,43 @@ class ViewController: UIViewController {
 
     // A sample URL that takes a while to download (so that cancellaton can be demonstrated)
     
-    private let url = NSURL(string: "http://yahoo.com")!
+    fileprivate let url = URL(string: "http://yahoo.com")!
     
     /// A default URL session
     
-    private let session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
+    fileprivate let session = URLSession(configuration: URLSessionConfiguration.default)
 
     
     // MARK: - UI Actions
     
-    @IBAction func downloadButtonPressed(sender: AnyObject) {
+    @IBAction func downloadButtonPressed(_ sender: AnyObject) {
         
         self.setLoadingSpinnerVisible(true)
         
         // Download data 
         
-        self.session.dataTaskWithURL(self.url) { (data, response, error) in
+        self.session.dataTask(with: self.url, completionHandler: { (data, response, error) in
             
-            dispatch_async(dispatch_get_main_queue(), { 
+            DispatchQueue.main.async(execute: { 
              
                 self.setLoadingSpinnerVisible(false)
                 
-                let titleAndMessage = self.createAlertTitleAndMessage(error, data: data)
+                let titleAndMessage = self.createAlertTitleAndMessage(error as NSError?, data: data)
                 let title = titleAndMessage.0
                 let message = titleAndMessage.1
                 
                 self.showAlert(title, message: message)
             })
             
-        }.resume()
+        }) .resume()
     }
     
-    @IBAction func cancelAllButtonPressed(sender: AnyObject) {
+    @IBAction func cancelAllButtonPressed(_ sender: AnyObject) {
         
         self.session.cancelAllRequests()
     }
     
-    @IBAction func cancelButtonPressed(sender: AnyObject) {
+    @IBAction func cancelButtonPressed(_ sender: AnyObject) {
         
         self.session.cancelRequestForURL(self.url)
     }
@@ -56,25 +56,25 @@ class ViewController: UIViewController {
     
     // MARK: - Loading UI
     
-     private func setLoadingSpinnerVisible(visible: Bool) {
+     fileprivate func setLoadingSpinnerVisible(_ visible: Bool) {
         
-        UIApplication.sharedApplication().networkActivityIndicatorVisible = visible
+        UIApplication.shared.isNetworkActivityIndicatorVisible = visible
     }
     
     
     // MARK: - Alerts
     
-    private func showAlert(title: String, message: String) {
+    fileprivate func showAlert(_ title: String, message: String) {
         
         // Create an alert controller with ok button 
         
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-        alertController.addAction(UIAlertAction(title: NSLocalizedString("Ok", comment: ""), style: .Cancel, handler: nil))
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: NSLocalizedString("Ok", comment: ""), style: .cancel, handler: nil))
         
-        self.presentViewController(alertController, animated: true, completion: nil)
+        self.present(alertController, animated: true, completion: nil)
     }
     
-    private func createAlertTitleAndMessage(error: NSError?, data: NSData?) -> (String, String) {
+    fileprivate func createAlertTitleAndMessage(_ error: NSError?, data: Data?) -> (String, String) {
         
         // Create title and message for an alert based on whether there was an error or if there is data
         

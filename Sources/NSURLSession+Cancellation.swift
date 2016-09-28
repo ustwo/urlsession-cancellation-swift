@@ -28,7 +28,7 @@ import Foundation
 
 /// Extension of NSURLSession for cancellation routines
 
-extension NSURLSession {
+extension URLSession {
 
 
     // MARK: - Cancel requests
@@ -60,7 +60,7 @@ extension NSURLSession {
         })
     }
 
-    func cancelRequestForURL(url: NSURL) {
+    func cancelRequestForURL(_ url: URL) {
 
         self.cancelTaskForURL(url)
     }
@@ -68,7 +68,7 @@ extension NSURLSession {
 
     // MARK: - Private
 
-    private func cancelTaskForURL(url: NSURL) {
+    fileprivate func cancelTaskForURL(_ url: URL) {
 
         self.getTasksWithCompletionHandler({ (dataTasks, uploadTasks, downloadTasks) -> Void in
 
@@ -80,15 +80,15 @@ extension NSURLSession {
         })
     }
 
-    private func cancelTaskForURL(url: NSURL, tasks: [NSURLSessionTask]) {
+    fileprivate func cancelTaskForURL(_ url: URL, tasks: [URLSessionTask]) {
 
         for task in tasks {
 
-            if (task is NSURLSessionDataTask
-                || task is NSURLSessionDownloadTask
-                || task is NSURLSessionUploadTask) {
+            if (task is URLSessionDataTask
+                || task is URLSessionDownloadTask
+                || task is URLSessionUploadTask) {
 
-                if let originalURLString = task.originalRequest?.URL?.absoluteString {
+                if let originalURLString = task.originalRequest?.url?.absoluteString {
 
                     let urlString: String = url.absoluteString
 

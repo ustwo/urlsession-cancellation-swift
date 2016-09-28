@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65E2D30B1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */; };
 		934F07001D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */; };
 		AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B521D67183500F3B854 /* AppDelegate.swift */; };
 		AABD2B551D67183500F3B854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B541D67183500F3B854 /* ViewController.swift */; };
@@ -15,7 +16,20 @@
 		AABD2B5D1D67183500F3B854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B5B1D67183500F3B854 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		65E2D30D1D9BCCD800E6BE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABD2B471D67183500F3B854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABD2B4E1D67183500F3B854;
+			remoteInfo = NSURLSessionCancellation;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionCancellationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSessionCancellationTests.swift; sourceTree = "<group>"; };
+		65E2D30C1D9BCCD800E6BE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Cancellation.swift"; sourceTree = "<group>"; };
 		AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSessionCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABD2B521D67183500F3B854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65E2D3051D9BCCD800E6BE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AABD2B4C1D67183500F3B854 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65E2D3091D9BCCD800E6BE89 /* NSURLSessionCancellationTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */,
+				65E2D30C1D9BCCD800E6BE89 /* Info.plist */,
+			);
+			path = NSURLSessionCancellationTests;
+			sourceTree = "<group>";
+		};
 		934F06FE1D8EEAFC001C74C9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				AABD2B511D67183500F3B854 /* NSURLSessionCancellation */,
+				65E2D3091D9BCCD800E6BE89 /* NSURLSessionCancellationTests */,
 				AABD2B501D67183500F3B854 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */,
+				65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +110,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		65E2D3071D9BCCD800E6BE89 /* NSURLSessionCancellationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E2D3111D9BCCD800E6BE89 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellationTests" */;
+			buildPhases = (
+				65E2D3041D9BCCD800E6BE89 /* Sources */,
+				65E2D3051D9BCCD800E6BE89 /* Frameworks */,
+				65E2D3061D9BCCD800E6BE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E2D30E1D9BCCD800E6BE89 /* PBXTargetDependency */,
+			);
+			name = NSURLSessionCancellationTests;
+			productName = NSURLSessionCancellationTests;
+			productReference = 65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AABD2B4E1D67183500F3B854 /* NSURLSessionCancellation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABD2B771D67183500F3B854 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellation" */;
@@ -101,12 +151,18 @@
 		AABD2B471D67183500F3B854 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ustwo;
 				TargetAttributes = {
+					65E2D3071D9BCCD800E6BE89 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AABD2B4E1D67183500F3B854;
+					};
 					AABD2B4E1D67183500F3B854 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -124,11 +180,19 @@
 			projectRoot = "";
 			targets = (
 				AABD2B4E1D67183500F3B854 /* NSURLSessionCancellation */,
+				65E2D3071D9BCCD800E6BE89 /* NSURLSessionCancellationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65E2D3061D9BCCD800E6BE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AABD2B4D1D67183500F3B854 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +206,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		65E2D3041D9BCCD800E6BE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E2D30B1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AABD2B4B1D67183500F3B854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +225,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E2D30E1D9BCCD800E6BE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABD2B4E1D67183500F3B854 /* NSURLSessionCancellation */;
+			targetProxy = 65E2D30D1D9BCCD800E6BE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AABD2B561D67183500F3B854 /* Main.storyboard */ = {
@@ -174,6 +254,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		65E2D30F1D9BCCD800E6BE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = NSURLSessionCancellationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLSessionCancellation.app/NSURLSessionCancellation";
+			};
+			name = Debug;
+		};
+		65E2D3101D9BCCD800E6BE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = NSURLSessionCancellationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLSessionCancellation.app/NSURLSessionCancellation";
+			};
+			name = Release;
+		};
 		AABD2B751D67183500F3B854 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,6 +383,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -278,12 +395,21 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65E2D3111D9BCCD800E6BE89 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E2D30F1D9BCCD800E6BE89 /* Debug */,
+				65E2D3101D9BCCD800E6BE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AABD2B4A1D67183500F3B854 /* Build configuration list for PBXProject "NSURLSessionCancellation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
