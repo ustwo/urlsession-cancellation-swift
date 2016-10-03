@@ -27,9 +27,9 @@ class ViewController: UIViewController {
 
         // Download data
 
-        session.dataTask(with: url, completionHandler: { (data, response, error) in
+        session.dataTask(with: url) { (data, response, error) in
 
-            DispatchQueue.main.async(execute: {
+            DispatchQueue.main.async() {
 
                 self.setLoadingSpinnerVisible(false)
 
@@ -38,9 +38,9 @@ class ViewController: UIViewController {
                 let message = titleAndMessage.1
 
                 self.showAlert(title, message: message)
-            })
+            }
 
-        }) .resume()
+        }.resume()
     }
 
     @IBAction func cancelAllButtonPressed(_ sender: AnyObject) {
