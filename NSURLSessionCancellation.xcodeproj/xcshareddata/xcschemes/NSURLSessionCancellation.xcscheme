@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AABD2B621D67183500F3B854"
+               BlueprintIdentifier = "65E2D3071D9BCCD800E6BE89"
                BuildableName = "NSURLSessionCancellationTests.xctest"
                BlueprintName = "NSURLSessionCancellationTests"
                ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
