@@ -35,7 +35,7 @@ extension URLSession {
 
     func cancelAllRequests() {
 
-        self.getTasksWithCompletionHandler({ (dataTasks, uploadTasks, downloadTasks) -> Void in
+        getTasksWithCompletionHandler() { dataTasks, uploadTasks, downloadTasks -> Void in
 
             // Data tasks
 
@@ -57,12 +57,12 @@ extension URLSession {
 
                 task.cancel()
             }
-        })
+        }
     }
 
     func cancelRequestForURL(_ url: URL) {
 
-        self.cancelTaskForURL(url)
+        cancelTaskForURL(url)
     }
 
 
@@ -70,27 +70,27 @@ extension URLSession {
 
     fileprivate func cancelTaskForURL(_ url: URL) {
 
-        self.getTasksWithCompletionHandler({ (dataTasks, uploadTasks, downloadTasks) -> Void in
+        getTasksWithCompletionHandler() { dataTasks, uploadTasks, downloadTasks -> Void in
 
             // Data tasks
 
             self.cancelTaskForURL(url, tasks: dataTasks)
             self.cancelTaskForURL(url, tasks: uploadTasks)
             self.cancelTaskForURL(url, tasks: downloadTasks)
-        })
+        }
     }
 
     fileprivate func cancelTaskForURL(_ url: URL, tasks: [URLSessionTask]) {
 
         for task in tasks {
 
-            if (task is URLSessionDataTask
+            if task is URLSessionDataTask
                 || task is URLSessionDownloadTask
-                || task is URLSessionUploadTask) {
+                || task is URLSessionUploadTask {
 
                 if let originalURLString = task.originalRequest?.url?.absoluteString {
 
-                    let urlString: String = url.absoluteString
+                    let urlString = url.absoluteString
 
                     if originalURLString == urlString {
 
