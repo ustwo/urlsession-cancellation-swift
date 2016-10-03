@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
         // Download data
 
-        session.dataTask(with: url) { (data, response, error) in
+        session.dataTask(with: url) { data, response, error in
 
             DispatchQueue.main.async() {
 

@@ -35,7 +35,7 @@ extension URLSession {
 
     func cancelAllRequests() {
 
-        getTasksWithCompletionHandler() { (dataTasks, uploadTasks, downloadTasks) -> Void in
+        getTasksWithCompletionHandler() { dataTasks, uploadTasks, downloadTasks -> Void in
 
             // Data tasks
 
@@ -70,7 +70,7 @@ extension URLSession {
 
     fileprivate func cancelTaskForURL(_ url: URL) {
 
-        getTasksWithCompletionHandler() { (dataTasks, uploadTasks, downloadTasks) -> Void in
+        getTasksWithCompletionHandler() { dataTasks, uploadTasks, downloadTasks -> Void in
 
             // Data tasks
 
