@@ -78,8 +78,8 @@ class ViewController: UIViewController {
 
         // Create title and message for an alert based on whether there was an error or if there is data
 
-        var message: String = ""
-        var title: String = ""
+        var message = ""
+        var title = ""
 
         if let error = error {
 

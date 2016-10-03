@@ -90,7 +90,7 @@ extension URLSession {
 
                 if let originalURLString = task.originalRequest?.url?.absoluteString {
 
-                    let urlString: String = url.absoluteString
+                    let urlString = url.absoluteString
 
                     if originalURLString == urlString {
 
