@@ -71,6 +71,10 @@ Please note that this project is released with a Contributor Code of Conduct. By
 
 * [Shagun Madhikarmi](mailto:shagun@ustwo.com)
 
+## Contact
+
+[open.source@ustwo.com](mailto:open.source@ustwo.com)
+
 ## License
 
-URLSession+Cancellation is released under the MIT License. See the LICENSE file.
+URLSession+Cancellation is released under the MIT License. See [License](LICENSE).
