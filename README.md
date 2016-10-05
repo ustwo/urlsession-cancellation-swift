@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/ustwo/urlsession-cancellation-swift/blob/master/LICENSE)
 
-# NSURLSession+Cancellation
+# URLSession+Cancellation
 
 An extension to iOS / macOS Foundation library's `NSURLSession` class to add support for cancelling specific URLs from being downloaded.
 
@@ -18,14 +18,14 @@ An extension to iOS / macOS Foundation library's `NSURLSession` class to add sup
 $ gem install cocoapods
 ```
 
-To integrate NSURLSessionCancellationSwift into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate URLSessionCancellationSwift into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 platform :ios, '8.3'
 
 use_frameworks!
 
-pod 'NSURLSessionCancellationSwift', '~> 1.0.0'
+pod 'URLSessionCancellationSwift', '~> 1.0.0'
 ```
 
 Then, run the following command:
@@ -36,13 +36,13 @@ $ pod install
 
 ### Manually
 
-- Add the `NSURLSession+Cancellation.swift` file to your Xcode project.
+- Add the `URLSession+Cancellation.swift` file to your Xcode project.
 
 ## Usage
 
 See `ViewController.swift` for sample usage.
 
-There are a couple of methods added to `NSURLSession`:
+There are a couple of methods added to `NSURLSession` class:
 
 ### cancelAllRequests
 
@@ -57,7 +57,7 @@ session.cancelAllRequests()
 Use the `cancelRequestForURL` function to cancel a request for a specific URL
 
 ```
-let url = NSURL(string: "http://puppygifs.tumblr.com/api/read/json")
+let url = URL(string: "http://puppygifs.tumblr.com/api/read/json")
 session.cancelRequestForURL(url)
 ```
 
@@ -69,4 +69,4 @@ Note. the `NSURLSession` completion handler will be called with an error code `N
 
 ## License
 
-NSURLSession+Cancellation is released under the MIT License. See the LICENSE file.
+URLSession+Cancellation is released under the MIT License. See the LICENSE file.

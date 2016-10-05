@@ -1,5 +1,5 @@
 //
-//  NSURLSession+Cancellation.swift
+//  URLSession+Cancellation.swift
 //
 //  Created by Shagun Madhikarmi on 09/10/2014.
 //  The MIT License (MIT)
@@ -26,7 +26,7 @@
 
 import Foundation
 
-/// Extension of NSURLSession for cancellation routines
+/// Extension of URLSession for cancellation routines
 
 extension URLSession {
 
