@@ -8,5 +8,5 @@
 
 import XCTest
 
-class NSURLSessionCancellationTests: XCTestCase {
+class URLSessionCancellationTests: XCTestCase {
 }

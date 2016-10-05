@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65E2D30B1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */; };
-		934F07001D8EEAFC001C74C9 /* URLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F06FF1D8EEAFC001C74C9 /* URLSession+Cancellation.swift */; };
-		AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B521D67183500F3B854 /* AppDelegate.swift */; };
-		AABD2B551D67183500F3B854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B541D67183500F3B854 /* ViewController.swift */; };
-		AABD2B581D67183500F3B854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B561D67183500F3B854 /* Main.storyboard */; };
-		AABD2B5A1D67183500F3B854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B591D67183500F3B854 /* Assets.xcassets */; };
-		AABD2B5D1D67183500F3B854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B5B1D67183500F3B854 /* LaunchScreen.storyboard */; };
+		65E0CD1B1DA5187A007580DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E0CD101DA5187A007580DA /* AppDelegate.swift */; };
+		65E0CD1C1DA5187A007580DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E0CD111DA5187A007580DA /* Assets.xcassets */; };
+		65E0CD1D1DA5187A007580DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E0CD121DA5187A007580DA /* LaunchScreen.storyboard */; };
+		65E0CD1E1DA5187A007580DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E0CD141DA5187A007580DA /* Main.storyboard */; };
+		65E0CD231DA51884007580DA /* URLSessionCancellationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E0CD1A1DA5187A007580DA /* URLSessionCancellationTests.swift */; };
+		65E0CD271DA5189D007580DA /* URLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E0CD261DA5189D007580DA /* URLSession+Cancellation.swift */; };
+		65E0CD281DA51903007580DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E0CD171DA5187A007580DA /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionCancellationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSessionCancellationTests.swift; sourceTree = "<group>"; };
-		65E2D30C1D9BCCD800E6BE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		934F06FF1D8EEAFC001C74C9 /* URLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Cancellation.swift"; sourceTree = "<group>"; };
-		AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSessionCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABD2B521D67183500F3B854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AABD2B541D67183500F3B854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AABD2B571D67183500F3B854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AABD2B591D67183500F3B854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AABD2B5C1D67183500F3B854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AABD2B5E1D67183500F3B854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E0CD101DA5187A007580DA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E0CD111DA5187A007580DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E0CD131DA5187A007580DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65E0CD151DA5187A007580DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65E0CD161DA5187A007580DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E0CD171DA5187A007580DA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65E0CD191DA5187A007580DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E0CD1A1DA5187A007580DA /* URLSessionCancellationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionCancellationTests.swift; sourceTree = "<group>"; };
+		65E0CD261DA5189D007580DA /* URLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Cancellation.swift"; sourceTree = "<group>"; };
+		65E2D3081D9BCCD800E6BE89 /* URLSessionCancellationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSessionCancellationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABD2B4F1D67183500F3B854 /* URLSessionCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSessionCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,28 +58,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65E2D3091D9BCCD800E6BE89 /* NSURLSessionCancellationTests */ = {
+		65E0CD0F1DA5187A007580DA /* URLSessionCancellation */ = {
 			isa = PBXGroup;
 			children = (
-				65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */,
-				65E2D30C1D9BCCD800E6BE89 /* Info.plist */,
+				65E0CD251DA5189D007580DA /* Sources */,
+				65E0CD101DA5187A007580DA /* AppDelegate.swift */,
+				65E0CD111DA5187A007580DA /* Assets.xcassets */,
+				65E0CD121DA5187A007580DA /* LaunchScreen.storyboard */,
+				65E0CD141DA5187A007580DA /* Main.storyboard */,
+				65E0CD161DA5187A007580DA /* Info.plist */,
+				65E0CD171DA5187A007580DA /* ViewController.swift */,
 			);
-			path = NSURLSessionCancellationTests;
+			path = URLSessionCancellation;
 			sourceTree = "<group>";
 		};
-		934F06FE1D8EEAFC001C74C9 /* Sources */ = {
+		65E0CD181DA5187A007580DA /* URLSessionCancellationTests */ = {
 			isa = PBXGroup;
 			children = (
-				934F06FF1D8EEAFC001C74C9 /* URLSession+Cancellation.swift */,
+				65E0CD191DA5187A007580DA /* Info.plist */,
+				65E0CD1A1DA5187A007580DA /* URLSessionCancellationTests.swift */,
+			);
+			path = URLSessionCancellationTests;
+			sourceTree = "<group>";
+		};
+		65E0CD251DA5189D007580DA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				65E0CD261DA5189D007580DA /* URLSession+Cancellation.swift */,
 			);
 			path = Sources;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		AABD2B461D67183500F3B854 = {
 			isa = PBXGroup;
 			children = (
-				AABD2B511D67183500F3B854 /* NSURLSessionCancellation */,
-				65E2D3091D9BCCD800E6BE89 /* NSURLSessionCancellationTests */,
+				65E0CD0F1DA5187A007580DA /* URLSessionCancellation */,
+				65E0CD181DA5187A007580DA /* URLSessionCancellationTests */,
 				AABD2B501D67183500F3B854 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,32 +101,18 @@
 		AABD2B501D67183500F3B854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */,
-				65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */,
+				AABD2B4F1D67183500F3B854 /* URLSessionCancellation.app */,
+				65E2D3081D9BCCD800E6BE89 /* URLSessionCancellationTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AABD2B511D67183500F3B854 /* NSURLSessionCancellation */ = {
-			isa = PBXGroup;
-			children = (
-				AABD2B521D67183500F3B854 /* AppDelegate.swift */,
-				AABD2B591D67183500F3B854 /* Assets.xcassets */,
-				AABD2B5E1D67183500F3B854 /* Info.plist */,
-				AABD2B5B1D67183500F3B854 /* LaunchScreen.storyboard */,
-				AABD2B561D67183500F3B854 /* Main.storyboard */,
-				934F06FE1D8EEAFC001C74C9 /* Sources */,
-				AABD2B541D67183500F3B854 /* ViewController.swift */,
-			);
-			path = NSURLSessionCancellation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65E2D3071D9BCCD800E6BE89 /* NSURLSessionCancellationTests */ = {
+		65E2D3071D9BCCD800E6BE89 /* URLSessionCancellationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65E2D3111D9BCCD800E6BE89 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellationTests" */;
+			buildConfigurationList = 65E2D3111D9BCCD800E6BE89 /* Build configuration list for PBXNativeTarget "URLSessionCancellationTests" */;
 			buildPhases = (
 				65E2D3041D9BCCD800E6BE89 /* Sources */,
 				65E2D3051D9BCCD800E6BE89 /* Frameworks */,
@@ -123,14 +123,14 @@
 			dependencies = (
 				65E2D30E1D9BCCD800E6BE89 /* PBXTargetDependency */,
 			);
-			name = NSURLSessionCancellationTests;
+			name = URLSessionCancellationTests;
 			productName = NSURLSessionCancellationTests;
-			productReference = 65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */;
+			productReference = 65E2D3081D9BCCD800E6BE89 /* URLSessionCancellationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AABD2B4E1D67183500F3B854 /* NSURLSessionCancellation */ = {
+		AABD2B4E1D67183500F3B854 /* URLSessionCancellation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AABD2B771D67183500F3B854 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellation" */;
+			buildConfigurationList = AABD2B771D67183500F3B854 /* Build configuration list for PBXNativeTarget "URLSessionCancellation" */;
 			buildPhases = (
 				AABD2B4B1D67183500F3B854 /* Sources */,
 				AABD2B4C1D67183500F3B854 /* Frameworks */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = NSURLSessionCancellation;
+			name = URLSessionCancellation;
 			productName = NSURLSessionCancellation;
-			productReference = AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */;
+			productReference = AABD2B4F1D67183500F3B854 /* URLSessionCancellation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AABD2B4A1D67183500F3B854 /* Build configuration list for PBXProject "NSURLSessionCancellation" */;
+			buildConfigurationList = AABD2B4A1D67183500F3B854 /* Build configuration list for PBXProject "URLSessionCancellation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,8 +180,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AABD2B4E1D67183500F3B854 /* NSURLSessionCancellation */,
-				65E2D3071D9BCCD800E6BE89 /* NSURLSessionCancellationTests */,
+				AABD2B4E1D67183500F3B854 /* URLSessionCancellation */,
+				65E2D3071D9BCCD800E6BE89 /* URLSessionCancellationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,9 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AABD2B5D1D67183500F3B854 /* LaunchScreen.storyboard in Resources */,
-				AABD2B5A1D67183500F3B854 /* Assets.xcassets in Resources */,
-				AABD2B581D67183500F3B854 /* Main.storyboard in Resources */,
+				65E0CD1C1DA5187A007580DA /* Assets.xcassets in Resources */,
+				65E0CD1E1DA5187A007580DA /* Main.storyboard in Resources */,
+				65E0CD1D1DA5187A007580DA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E2D30B1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift in Sources */,
+				65E0CD231DA51884007580DA /* URLSessionCancellationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,9 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AABD2B551D67183500F3B854 /* ViewController.swift in Sources */,
-				AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */,
-				934F07001D8EEAFC001C74C9 /* URLSession+Cancellation.swift in Sources */,
+				65E0CD281DA51903007580DA /* ViewController.swift in Sources */,
+				65E0CD271DA5189D007580DA /* URLSession+Cancellation.swift in Sources */,
+				65E0CD1B1DA5187A007580DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,26 +246,26 @@
 /* Begin PBXTargetDependency section */
 		65E2D30E1D9BCCD800E6BE89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AABD2B4E1D67183500F3B854 /* NSURLSessionCancellation */;
+			target = AABD2B4E1D67183500F3B854 /* URLSessionCancellation */;
 			targetProxy = 65E2D30D1D9BCCD800E6BE89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AABD2B561D67183500F3B854 /* Main.storyboard */ = {
+		65E0CD121DA5187A007580DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AABD2B571D67183500F3B854 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AABD2B5B1D67183500F3B854 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AABD2B5C1D67183500F3B854 /* Base */,
+				65E0CD131DA5187A007580DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65E0CD141DA5187A007580DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E0CD151DA5187A007580DA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,14 +278,14 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				INFOPLIST_FILE = NSURLSessionCancellationTests/Info.plist;
+				INFOPLIST_FILE = URLSessionCancellationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ustwo.URLSessionCancellationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLSessionCancellation.app/NSURLSessionCancellation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSessionCancellation.app/URLSessionCancellation";
 			};
 			name = Debug;
 		};
@@ -296,14 +296,14 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				INFOPLIST_FILE = NSURLSessionCancellationTests/Info.plist;
+				INFOPLIST_FILE = URLSessionCancellationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ustwo.URLSessionCancellationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSURLSessionCancellation.app/NSURLSessionCancellation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSessionCancellation.app/URLSessionCancellation";
 			};
 			name = Release;
 		};
@@ -401,9 +401,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NSURLSessionCancellation/Info.plist;
+				INFOPLIST_FILE = URLSessionCancellation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellation;
+				PRODUCT_BUNDLE_IDENTIFIER = ustwo.URLSessionCancellation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -413,9 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NSURLSessionCancellation/Info.plist;
+				INFOPLIST_FILE = URLSessionCancellation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ustwo.NSURLSessionCancellation;
+				PRODUCT_BUNDLE_IDENTIFIER = ustwo.URLSessionCancellation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,7 +424,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65E2D3111D9BCCD800E6BE89 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellationTests" */ = {
+		65E2D3111D9BCCD800E6BE89 /* Build configuration list for PBXNativeTarget "URLSessionCancellationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65E2D30F1D9BCCD800E6BE89 /* Debug */,
@@ -433,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AABD2B4A1D67183500F3B854 /* Build configuration list for PBXProject "NSURLSessionCancellation" */ = {
+		AABD2B4A1D67183500F3B854 /* Build configuration list for PBXProject "URLSessionCancellation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AABD2B751D67183500F3B854 /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AABD2B771D67183500F3B854 /* Build configuration list for PBXNativeTarget "NSURLSessionCancellation" */ = {
+		AABD2B771D67183500F3B854 /* Build configuration list for PBXNativeTarget "URLSessionCancellation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AABD2B781D67183500F3B854 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AABD2B4E1D67183500F3B854"
-               BuildableName = "NSURLSessionCancellation.app"
-               BlueprintName = "NSURLSessionCancellation"
-               ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
+               BuildableName = "URLSessionCancellation.app"
+               BlueprintName = "URLSessionCancellation"
+               ReferencedContainer = "container:URLSessionCancellation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65E2D3071D9BCCD800E6BE89"
-               BuildableName = "NSURLSessionCancellationTests.xctest"
-               BlueprintName = "NSURLSessionCancellationTests"
-               ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
+               BuildableName = "URLSessionCancellationTests.xctest"
+               BlueprintName = "URLSessionCancellationTests"
+               ReferencedContainer = "container:URLSessionCancellation.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "AABD2B6D1D67183500F3B854"
                BuildableName = "NSURLSessionCancellationUITests.xctest"
                BlueprintName = "NSURLSessionCancellationUITests"
-               ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
+               ReferencedContainer = "container:URLSessionCancellation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AABD2B4E1D67183500F3B854"
-            BuildableName = "NSURLSessionCancellation.app"
-            BlueprintName = "NSURLSessionCancellation"
-            ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
+            BuildableName = "URLSessionCancellation.app"
+            BlueprintName = "URLSessionCancellation"
+            ReferencedContainer = "container:URLSessionCancellation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AABD2B4E1D67183500F3B854"
-            BuildableName = "NSURLSessionCancellation.app"
-            BlueprintName = "NSURLSessionCancellation"
-            ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
+            BuildableName = "URLSessionCancellation.app"
+            BlueprintName = "URLSessionCancellation"
+            ReferencedContainer = "container:URLSessionCancellation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AABD2B4E1D67183500F3B854"
-            BuildableName = "NSURLSessionCancellation.app"
-            BlueprintName = "NSURLSessionCancellation"
-            ReferencedContainer = "container:NSURLSessionCancellation.xcodeproj">
+            BuildableName = "URLSessionCancellation.app"
+            BlueprintName = "URLSessionCancellation"
+            ReferencedContainer = "container:URLSessionCancellation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
