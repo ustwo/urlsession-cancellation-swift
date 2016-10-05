@@ -10,12 +10,37 @@ An extension to iOS / macOS Foundation library's `NSURLSession` class to add sup
 
 ## Installation
 
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate NSURLSessionCancellationSwift into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+platform :ios, '8.3'
+
+use_frameworks!
+
+pod 'NSURLSessionCancellationSwift', '~> 1.0.0'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Manually
+
 - Add the `NSURLSession+Cancellation.swift` file to your Xcode project.
-- **Note**. CocoaPods support coming soon.
 
 ## Usage
 
-See `ViewController.swift` for sample usage. 
+See `ViewController.swift` for sample usage.
 
 There are a couple of methods added to `NSURLSession`:
 
