@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65E2D30B1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */; };
-		934F07001D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */; };
+		934F07001D8EEAFC001C74C9 /* URLSession+Cancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F06FF1D8EEAFC001C74C9 /* URLSession+Cancellation.swift */; };
 		AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B521D67183500F3B854 /* AppDelegate.swift */; };
 		AABD2B551D67183500F3B854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B541D67183500F3B854 /* ViewController.swift */; };
 		AABD2B581D67183500F3B854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B561D67183500F3B854 /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 		65E2D3081D9BCCD800E6BE89 /* NSURLSessionCancellationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionCancellationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E2D30A1D9BCCD800E6BE89 /* NSURLSessionCancellationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLSessionCancellationTests.swift; sourceTree = "<group>"; };
 		65E2D30C1D9BCCD800E6BE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Cancellation.swift"; sourceTree = "<group>"; };
+		934F06FF1D8EEAFC001C74C9 /* URLSession+Cancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Cancellation.swift"; sourceTree = "<group>"; };
 		AABD2B4F1D67183500F3B854 /* NSURLSessionCancellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSessionCancellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABD2B521D67183500F3B854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AABD2B541D67183500F3B854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		934F06FE1D8EEAFC001C74C9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				934F06FF1D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift */,
+				934F06FF1D8EEAFC001C74C9 /* URLSession+Cancellation.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -237,7 +237,7 @@
 			files = (
 				AABD2B551D67183500F3B854 /* ViewController.swift in Sources */,
 				AABD2B531D67183500F3B854 /* AppDelegate.swift in Sources */,
-				934F07001D8EEAFC001C74C9 /* NSURLSession+Cancellation.swift in Sources */,
+				934F07001D8EEAFC001C74C9 /* URLSession+Cancellation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

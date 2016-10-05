@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = 'NSURLSessionCancellationSwift'
+  spec.name = 'URLSessionCancellationSwift'
   spec.version = '1.0.0'
   spec.license = 'MIT'
   spec.summary = 'An extension to iOS / macOS Foundation library\'s NSURLSession class to add support for cancelling specific URLs from being downloaded.'
