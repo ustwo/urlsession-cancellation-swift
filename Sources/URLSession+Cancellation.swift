@@ -1,5 +1,5 @@
 //
-//  NSURLSession+Cancellation.swift
+//  URLSession+Cancellation.swift
 //
 //  Created by Shagun Madhikarmi on 09/10/2014.
 //  The MIT License (MIT)
@@ -26,14 +26,14 @@
 
 import Foundation
 
-/// Extension of NSURLSession for cancellation routines
+/// Extension of URLSession for cancellation routines
 
 extension URLSession {
 
 
     // MARK: - Cancel requests
 
-    func cancelAllRequests() {
+    open func cancelAllRequests() {
 
         getTasksWithCompletionHandler { dataTasks, uploadTasks, downloadTasks -> Void in
 
@@ -60,7 +60,7 @@ extension URLSession {
         }
     }
 
-    func cancelRequestForURL(_ url: URL) {
+    open func cancelRequestForURL(_ url: URL) {
 
         cancelTaskForURL(url)
     }
