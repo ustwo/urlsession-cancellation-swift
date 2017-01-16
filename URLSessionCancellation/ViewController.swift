@@ -27,9 +27,9 @@ class ViewController: UIViewController {
 
         // Download data
 
-        session.dataTask(with: url) { data, response, error in
+        session.dataTask(with: url) { data, _, error in
 
-            DispatchQueue.main.async() {
+            DispatchQueue.main.async {
 
                 self.setLoadingSpinnerVisible(false)
 
